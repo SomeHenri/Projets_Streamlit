@@ -5,7 +5,7 @@ import pandas as pd
 st.markdown("### Ceci est un titre énorme")
 
 # un message de bienvenue
-st.write("Bonjour DIT, comment allez vous ? Ici tout va bien")
+st.write("Bonjour DIT, comment allez vous ? Ici tout va bien par la grâce de Dieu")
 
 
 
