@@ -19,7 +19,7 @@ conn.commit()
 
 # Navigation
 # je veux un menu dans la marge
-st.sidebar.title("Mon Menu")
+st.sidebar.title("Menu")
 
 # je veux un bouton radio dans la marge afin de selectionner la page que je veux
 page = st.sidebar.radio("Go to", ["List Students", "Add Student"])
