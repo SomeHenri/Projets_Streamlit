@@ -1,3 +1,5 @@
 matplotlib 
 streamlit
 pandas
+mysqlclient==x.x.x
+SQLAlchemy==x.x.x
