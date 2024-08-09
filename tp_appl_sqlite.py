@@ -23,11 +23,11 @@ conn.commit()
 st.sidebar.title("Menu")
 
 # je veux un bouton radio dans la marge afin de selectionner la page que je veux
-page = st.sidebar.radio("Aller à", ["Liste des étudiants", "Ajouter des étudiants"])
+page = st.sidebar.radio("Go to", ["List Students", "Add Student"])
 
 
 # List Students Page
-if page == "Liste des étudiants":
+if page == "List Students":
     # j'affiche la liste des étudiants
     st.title("List of Students")
     st.write("Here you can see the list of students.")
